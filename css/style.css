@@ -1,0 +1,72 @@
+	.nav{
+
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background:white;
+  margin-right: 100px;
+    color: #fff;
+
+   /* padding: 10px  85px 1px;*/
+
+}
+
+  
+}
+.nav.logo{
+    text-decoration: none;
+    color:blak;
+    font-size:40px;
+    margin-top: 20px;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-right: 50px;
+
+}
+.nav li{
+    list-style: none;
+
+}
+.nav a{
+    text-decoration: none;
+    color:black;
+    padding-right:2em;
+    font-size: 1em;
+
+}
+.nav a:hover{
+    color:green;
+    letter-spacing: 1px;
+}
+
+/*search bar*/
+.search-div{ float: right; 
+    font-size: 20px; 
+    margin-left: 40px; }
+/*search input*/
+.search-input{border-radius: 10px;
+ padding-left: 5px;
+  margin-top:10px;}
+
+/*section main*/
+  .section-main{margin-top:40px;}
+
+   /*team member 1row*/
+      .container{width:150px;
+    
+      background-color: blu;
+      height: px; position: relative;
+      margin-right:130px;}
+      .image{width: 80px; height: 80px; border-radius: 50%;  margin-right: 40px;}
+    
+      .h3tm{color: white; }
+      .team-div{ border-radius: 20px; 
+        background-color:indigo; 
+        width: 98%; }
+        .team-div-section{ display: inline-flex; margin-left:10%; margin-top: 40px; }
+
+        
